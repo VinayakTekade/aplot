@@ -6,6 +6,11 @@ Library is self contained with two files:
 1. aplot.h
 2. aplot.cc
 
+Dependencies:
+1. gnuplot (main engine)
+2. ImageMagik 
+3. Latex (for formulas within the graphs)
+
 General instructions for use:
 
 A. Download these files to any directory.
@@ -27,7 +32,10 @@ D. Execution
 $ g++ test_aplot1.cc aplot.o -o test_aplot1.exe (for example).
 $ ./test_aplot1.exe
 
-BINGO! See the REULTS!
+BINGO! ENJOY !
+
+Note: Tested for C++ under Linux Ubuntu 19.10 but porting to any platforms should be straight forward as source is given.
+
 
 
 
